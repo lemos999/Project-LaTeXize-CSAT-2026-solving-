@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, kotex, enumitem, graphicx}
+
+\begin{document}
+
+\section*{2026 CSAT Mathematics - Geometry (Odd Type)}
+
+\begin{enumerate}[start=23]
+    % Question 23
+    \item 두 벡터 $\vec{a} = (4, 1)$, $\vec{b} = (-1, -1)$에 대하여 $\vec{a} + \vec{b}$의 모든 성분의 합은? [2점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $1$ \item $2$ \item $3$ \item $4$ \item $5$
+    \end{enumerate}
+
+    % Question 24
+    \item 포물선 $y^2 = 12(x-2)$의 초점과 준선 사이의 거리는? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $6$ \item $7$ \item $8$ \item $9$ \item $10$
+    \end{enumerate}
+
+    % Question 25
+    \item 좌표공간의 점 A$(3, -\frac{3}{2}, -2)$를 $yz$평면에 대하여 대칭이동한 점을 B, 점 A를 원점에 대하여 대칭이동한 점을 C라 할 때, 선분 BC의 길이는? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\sqrt{21}$ \item $\sqrt{22}$ \item $\sqrt{23}$ \item $2\sqrt{6}$ \item $5$
+    \end{enumerate}
+
+    % Question 26
+    \item 양수 $a$에 대하여 두 초점이 F, F'인 쌍곡선 $\frac{x^2}{a^2} - \frac{y^2}{a^2} = -1$ 위의 점 $(a, \sqrt{2}a)$에서의 접선이 $y$축과 만나는 점을 P라 하자. $\overline{PF} \times \overline{PF'} = 8$일 때, $a$의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\sqrt{3}$ \item $\frac{4\sqrt{3}}{3}$ \item $\frac{5\sqrt{3}}{3}$ \item $2\sqrt{3}$ \item $\frac{7\sqrt{3}}{3}$
+    \end{enumerate}
+
+    % Question 27
+    \item 그림과 같이 지름의 길이가 5인 두 원 $C_1, C_2$를 두 밑면으로 하는 원기둥이 있고, 원 $C_1$ 위의 $\overline{AB}=5$인 두 점 A, B와 원 $C_2$ 위의 $\overline{CD}=3$인 두 점 C, D에 대하여 $\overline{AD} = \overline{BC}$이다. 점 D에서 원 $C_1$을 포함하는 평면에 내린 수선의 발을 H라 하자. 사각형 ABCD의 넓이가 삼각형 ABH의 넓이의 4배일 때, 이 원기둥의 높이는? [3점]
+
+    \text{[Visual Logic: 3D Geometry | Cylinder with base circles $C_1, C_2$. $\overline{AB}$ is diameter of $C_1$. $\overline{CD}$ is chord of $C_2$. Quadrilateral ABCD inside cylinder. H is projection of D onto plane of $C_1$.]}
+
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $3\sqrt{2}$ \item $\sqrt{19}$ \item $2\sqrt{5}$ \item $\sqrt{21}$ \item $\sqrt{22}$
+    \end{enumerate}
+
+    % Question 28
+    \item 그림과 같이 $\overline{AB}=\overline{CD}=4$, $\overline{BC}=\overline{BD}=2\sqrt{5}$인 사면체 ABCD가 있고, 점 A에서 직선 CD에 내린 수선의 발 H에 대하여 두 평면 ABH와 BCD는 서로 수직이고 $\overline{AH}=4$이다. 삼각형 ABH의 무게중심을 G라 하고, 점 G를 중심으로 하고 평면 ACD에 접하는 구를 $S$라 하자. $\angle APG = \frac{\pi}{2}$인 구 $S$ 위의 모든 점 P가 나타내는 도형을 $T$라 할 때, 도형 $T$의 평면 ABC 위로의 정사영의 넓이는? [4점]
+
+    \text{[Visual Logic: 3D Geometry | Tetrahedron ABCD. H is on CD ($AH \perp CD$). Plane $ABH \perp$ Plane $BCD$. $G$ is centroid of $\Delta ABH$. Sphere $S$ centered at G tangent to plane ACD. Locus $T$ of points P on S satisfying $\angle APG = 90^\circ$.]}
+
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{\pi}{7}$ \item $\frac{\pi}{6}$ \item $\frac{\pi}{5}$ \item $\frac{\pi}{4}$ \item $\frac{\pi}{3}$
+    \end{enumerate}
+
+    % Question 29
+    \item 그림과 같이 초점이 F$(p, 0) (p>0)$이고 준선이 $x=-p$인 포물선 위의 점 중 제1사분면에 있는 점 A에서 포물선의 준선에 내린 수선의 발을 H라 하고, 두 초점이 $x$축 위에 있고 세 점 F, A, H를 지나는 타원의 $x$좌표가 양수인 초점을 B라 하자. 삼각형 AHB의 둘레의 길이가 $p+27$, 넓이가 $2p+12$일 때, 선분 HF의 길이를 $k$라 하자. $k^2$의 값을 구하시오. [4점]
+    
+    \text{[Visual Logic: Conic Sections | Parabola $y^2=4px$. Point A on parabola. H on directrix $x=-p$ ($AH \perp$ directrix). Ellipse passing through F, A, H with foci on x-axis. B is positive focus of ellipse. Triangle AHB properties given.]}
+
+    % Question 30
+    \item 좌표평면에서 길이가 $10\sqrt{2}$인 선분 AB를 지름으로 하는 원 위의 두 점 P, Q가
+    \[ (\vec{PA} + \vec{PB}) \cdot (\vec{PQ} + \vec{PB}) = 2|\vec{PQ}|^2 \]
+    을 만족시킨다. $|\vec{PB}|=14$일 때, $|\vec{PA} \cdot \vec{QB}| = \frac{q}{p}$이다. $p+q$의 값을 구하시오. (단, $|\vec{QB}| > 0$이고, $p$와 $q$는 서로소인 자연수이다.) [4점]
+
+\end{enumerate}
+\end{document}

@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphicx, tikz}
+\usepackage[utf8]{inputenc}
+\usepackage{kotex} % Package for Korean text support
+\usepackage{enumitem}
+
+\begin{document}
+
+\section*{2026 CSAT Mathematics - Common Questions (Odd Type)}
+
+\begin{enumerate}
+    % Question 1
+    \item $9^{\frac{1}{4}} \times 3^{-\frac{1}{2}}$ 의 값은? [2점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $1$ \item $\sqrt{3}$ \item $3$ \item $3\sqrt{3}$ \item $9$
+    \end{enumerate}
+
+    % Question 2
+    \item 함수 $f(x) = 3x^3 + 4x + 1$에 대하여 $\lim_{h \to 0} \frac{f(1+h)-f(1)}{h}$ 의 값은? [2점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $7$ \item $9$ \item $11$ \item $13$ \item $15$
+    \end{enumerate}
+
+    % Question 3
+    \item 수열 $\{a_n\}$에 대하여 $\sum_{k=1}^{4} (2a_k - k) = 0$일 때, $\sum_{k=1}^{4} a_k$의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $1$ \item $2$ \item $3$ \item $4$ \item $5$
+    \end{enumerate}
+
+    % Question 4
+    \item 함수
+    \[ f(x) = \begin{cases} 3x-2 & (x < 1) \\ x^2 - 3x + a & (x \ge 1) \end{cases} \]
+    이 실수 전체의 집합에서 연속일 때, 상수 $a$의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $1$ \item $2$ \item $3$ \item $4$ \item $5$
+    \end{enumerate}
+
+    % Question 5
+    \item 함수 $f(x) = (x+2)(2x^2 - x - 2)$에 대하여 $f'(1)$의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $6$ \item $7$ \item $8$ \item $9$ \item $10$
+    \end{enumerate}
+
+    % Question 6
+    \item $1$보다 큰 두 실수 $a, b$가
+    \[ \log_a b = 3, \quad \log_3 \frac{b}{a} = \frac{1}{2} \]
+    을 만족시킬 때, $\log_9 ab$의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{3}{8}$ \item $\frac{1}{2}$ \item $\frac{5}{8}$ \item $\frac{3}{4}$ \item $\frac{7}{8}$
+    \end{enumerate}
+
+    % Question 7
+    \item 두 곡선 $y = x^2 + 3$, $y = -\frac{1}{5}x^2 + 3$과 직선 $x=2$로 둘러싸인 부분의 넓이는? [3점]
+    
+    \text{[Visual Logic: Graph | Two parabolas intersecting at vertex (0,3). Upper parabola $y=x^2+3$ opens upward. Lower parabola $y=-1/5x^2+3$ opens downward. Shaded region bounded by both curves, y-axis, and vertical line $x=2$.]}
+
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{18}{5}$ \item $\frac{7}{2}$ \item $\frac{17}{5}$ \item $\frac{33}{10}$ \item $\frac{16}{5}$
+    \end{enumerate}
+
+    % Question 8
+    \item $\sin\theta + 3\cos\theta = 0$이고 $\cos(\pi - \theta) > 0$일 때, $\sin\theta$ 의 값은? [3점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{3\sqrt{10}}{10}$ \item $\frac{\sqrt{10}}{5}$ \item $0$ \item $-\frac{\sqrt{10}}{5}$ \item $-\frac{3\sqrt{10}}{10}$
+    \end{enumerate}
+
+    % Question 9
+    \item 양수 $a$에 대하여 함수 $f(x)$를
+    \[ f(x) = x^3 + 3ax^2 - 9a^2x + 4 \]
+    라 하자. 직선 $y=5$가 곡선 $y=f(x)$에 접할 때, $f(2)$의 값은? [4점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $11$ \item $12$ \item $13$ \item $14$ \item $15$
+    \end{enumerate}
+
+    % Question 10
+    \item 상수 $a(a>1)$에 대하여 곡선 $y=a^x-2$ 위의 점 중 제1사분면에 있는 점 A를 지나고 $y$축에 평행한 직선이 $x$축과 만나는 점을 B, 곡선 $y=a^x-2$의 점근선과 만나는 점을 C라 하자. $\overline{AB} = \overline{BC}$이고 삼각형 AOC의 넓이가 $8$일 때, $a \times \overline{OB}$의 값은? (단, O는 원점이다.) [4점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $2^{\frac{13}{6}}$ \item $2^{\frac{7}{3}}$ \item $2^{\frac{5}{2}}$ \item $2^{\frac{8}{3}}$ \item $2^{\frac{17}{6}}$
+    \end{enumerate}
+
+    % Question 11
+    \item 시각 $t=0$일 때 원점을 출발하여 수직선 위를 움직이는 점 P가 있다. 실수 $k$에 대하여 시각이 $t(t \ge 0)$일 때 점 P의 속도 $v(t)$가
+    \[ v(t) = t^2 - kt + 4 \]
+    이다. <보기>에서 옳은 것만을 있는 대로 고른 것은? [4점]
+    \begin{center} \fbox{\begin{minipage}{0.8\textwidth}
+    <보 기>\\
+    ㄱ. $k=0$이면, 시각 $t=1$일 때 점 P의 위치는 $\frac{13}{3}$이다.\\
+    ㄴ. $k=3$이면, 출발한 후 점 P의 운동 방향이 한 번 바뀐다.\\
+    ㄷ. $k=5$이면, 시각 $t=0$에서 $t=2$까지 점 P가 움직인 거리는 $3$이다.
+    \end{minipage}} \end{center}
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item ㄱ \item ㄱ, ㄴ \item ㄱ, ㄷ \item ㄴ, ㄷ \item ㄱ, ㄴ, ㄷ
+    \end{enumerate}
+
+    % Question 12
+    \item 등비수열 $\{a_n\}$이
+    \[ 2(a_1 + a_4 + a_7) = a_4 + a_7 + a_{10} = 6 \]
+    을 만족시킬 때, $a_{10}$의 값은? [4점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{22}{7}$ \item $\frac{24}{7}$ \item $\frac{26}{7}$ \item $\frac{30}{7}$ \item $\frac{32}{7}$
+    \end{enumerate}
+
+    % Question 13
+    \item 함수 $f(x) = x^2 - 4x - 3$에 대하여 곡선 $y=f(x)$ 위의 점 $(1, -6)$에서의 접선을 $l$이라 하고, 함수 $g(x) = (x^3 - 2x)f(x)$에 대하여 곡선 $y=g(x)$ 위의 점 $(1, 6)$에서의 접선을 $m$이라 하자. 두 직선 $l, m$과 $y$축으로 둘러싸인 도형의 넓이는? [4점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $21$ \item $28$ \item $35$ \item $42$ \item $49$
+    \end{enumerate}
+
+    % Question 14
+    \item 그림과 같이 $\overline{AB}=3$, $\overline{BC}=4$이고 $\angle B = \frac{\pi}{2}$인 직각삼각형 ABC가 있다. 선분 AB를 $2:1$로 내분하는 점을 D, 점 A를 중심으로 하고 반지름의 길이가 $\overline{AD}$인 원이 선분 AC와 만나는 점을 E, 직선 AB가 이 원과 만나는 점 중 D가 아닌 점을 F라 하고, 호 EF 위의 점 G를 $\overline{CG} = 2\sqrt{6}$이 되도록 잡는다. 세 점 C, E, G를 지나는 원 위의 점 H가 $\angle HCG = \angle BAC$를 만족시킬 때, 선분 GH의 길이는? [4점]
+    
+    \text{[Visual Logic: Geometry | Right Triangle ABC ($\angle B = 90^\circ$). Circle centered at A intersects AC at E and AB extended at F. D is on AB ($AD:DB=2:1$). G is on arc EF. H is a point on the circumcircle of $\Delta CEG$. Geometric conditions: $\overline{CG}=2\sqrt{6}$, $\angle HCG = \angle BAC$.]}
+
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{6\sqrt{15}}{5}$ \item $\frac{38\sqrt{10}}{25}$ \item $\frac{14\sqrt{3}}{5}$ \item $\frac{32\sqrt{15}}{25}$ \item $\frac{8\sqrt{10}}{5}$
+    \end{enumerate}
+
+    % Question 15
+    \item 함수 $f(x)$가
+    \[ f(x) = \begin{cases} -x^2 & (x < 0) \\ x^2 - x & (x \ge 0) \end{cases} \]
+    이고, 양수 $a$에 대하여 함수 $g(x)$를
+    \[ g(x) = \begin{cases} ax+a & (x < -1) \\ 0 & (-1 \le x < 1) \\ ax-a & (x \ge 1) \end{cases} \]
+    이라 하자. 함수 $h(x) = \int_{0}^{x} (g(t) - f(t)) dt$가 오직 하나의 극값을 갖도록 하는 $a$의 최댓값을 $k$라 하자. $a=k$일 때, $k + h(3)$의 값은? [4점]
+    \begin{enumerate}[label=\circled{\arabic*}]
+        \item $\frac{9}{2}$ \item $\frac{11}{2}$ \item $\frac{13}{2}$ \item $\frac{15}{2}$ \item $\frac{17}{2}$
+    \end{enumerate}
+
+    % Question 16
+    \item 수열 $\{a_n\}$은 $a_1 = 1$이고, 모든 자연수 $n$에 대하여
+    \[ a_{n+1} = n^2 a_n + 1 \]
+    을 만족시킨다. $a_3$의 값을 구하시오. [3점]
+
+    % Question 17
+    \item 함수 $f(x) = 4x^3 - 2x$의 한 부정적분 $F(x)$에 대하여 $F(0)=4$일 때, $F(2)$의 값을 구하시오. [3점]
+
+    % Question 18
+    \item $\overline{AB}=5$, $\overline{AC}=6$이고 $\cos(\angle BAC) = -\frac{3}{5}$인 삼각형 ABC의 넓이를 구하시오. [3점]
+
+    % Question 19
+    \item $-2 \le x \le 2$인 모든 실수 $x$에 대하여 부등식
+    \[ -k \le 2x^3 + 3x^2 - 12x - 8 \le k \]
+    가 성립하도록 하는 양수 $k$의 최솟값을 구하시오. [3점]
+
+    % Question 20
+    \item 수열 $\{a_n\}$이 다음 조건을 만족시킨다.
+    \begin{itemize}
+        \item $a_1 = 7$
+        \item $2$ 이상의 자연수 $n$에 대하여
+        \[ \sum_{k=1}^{n} a_k = \frac{2}{3} a_n + \frac{1}{6}n^2 - \frac{1}{6}n + 10 \]
+        이다.
+    \end{itemize}
+    다음은 $\sum_{k=1}^{12} a_k + \sum_{k=1}^{5} a_{2k+1}$의 값을 구하는 과정이다.
+    \begin{center} \fbox{\begin{minipage}{0.8\textwidth}
+    2 이상의 자연수 $n$에 대하여 $a_{n+1} = \sum_{k=1}^{n+1} a_k - \sum_{k=1}^{n} a_k$이므로\\
+    $a_{n+1} = \frac{2}{3}(a_{n+1}-a_n) +$ (가)\\
+    이고, 이 식을 정리하면\\
+    $2a_n + a_{n+1} = 3 \times$ (가) $\cdots \cdots$ ㉠\\
+    이다.\\
+    $\sum_{k=1}^{n} a_k = \frac{2}{3}a_n + \frac{1}{6}n^2 - \frac{1}{6}n + 10$ ($n \ge 2$)\\
+    에서 양변에 $n=2$를 대입하면\\
+    $a_2 =$ (나) $\cdots \cdots$ ㉡\\
+    이다. ㉠과 ㉡에 의하여\\
+    $\sum_{k=1}^{12} a_k + \sum_{k=1}^{5} a_{2k+1} = a_1 + a_2 + \sum_{k=1}^{5} (2a_{2k+1} + a_{2k+2})$\\
+    $= $ (다)\\
+    이다.
+    \end{minipage}} \end{center}
+    위의 (가)에 알맞은 식을 $f(n)$이라 하고, (나), (다)에 알맞은 수를 각각 $p, q$라 할 때, $\frac{p \times q}{f(12)}$의 값을 구하시오. [4점]
+
+    % Question 21
+    \item 최고차항의 계수가 양수인 삼차함수 $f(x)$와 실수 $t$에 대하여 함수
+    \[ g(x) = \begin{cases} -f(x) & (x < t) \\ f(x) & (x \ge t) \end{cases} \]
+    는 실수 전체의 집합에서 연속이고 다음 조건을 만족시킨다.
+    \begin{itemize}
+        \item[(가)] 모든 실수 $a$에 대하여 $\lim_{x \to a+} \frac{g(x)}{x(x-2)}$의 값이 존재한다.
+        \item[(나)] $\lim_{x \to m+} \frac{g(x)}{x(x-2)}$의 값이 음수가 되도록 하는 자연수 $m$의 집합은 $\{ g(-1), -\frac{7}{2}g(1) \}$ 이다.
+    \end{itemize}
+    $g(-5)$의 값을 구하시오. (단, $g(-1) \ne -\frac{7}{2}g(1)$) [4점]
+
+    % Question 22
+    \item 곡선 $y = \log_{16}(8x+2)$ 위의 점 A$(a, b)$와 곡선 $y = 4^{x-1} - \frac{1}{2}$ 위의 점 B가 제1사분면에 있다. 점 A를 직선 $y=x$에 대하여 대칭이동한 점이 직선 OB 위에 있고 선분 AB의 중점의 좌표가 $\left( \frac{77}{8}, \frac{133}{8} \right)$일 때, $a \times b = \frac{q}{p}$이다. $p+q$의 값을 구하시오. (단, O는 원점이고, $p$와 $q$는 서로소인 자연수이다.) [4점]
+
+\end{enumerate}
+\end{document}

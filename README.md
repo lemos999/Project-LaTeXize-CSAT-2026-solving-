@@ -8,6 +8,8 @@ The purpose of this project is to verify that an AI can not only transcribe math
 
 The reliability of LaTeXize was rigorously tested by converting the entire 2026 mock College Scholastic Ability Test (CSAT) Mathematics exam (Odd Type) into LaTeX. The generated code, including the VLE tags, was then used to solve every problem.
 
+> **Note:** Copyright for the test questions used in this verification belongs to the Korea Institute for Curriculum and Evaluation (KICE).
+
 **The results were a 100% match with the official answer key across all sections:**
 *   **Common Questions (Math I, Math II):** 100% Accuracy
 *   **Calculus:** 100% Accuracy
@@ -46,6 +48,9 @@ This system is built upon a clear, rule-based architecture:
     *   **Phase 3: Integrity Check:** The output is cross-referenced with the source to ensure 100% information preservation.
 3.  **Strict Output Protocol:** A rigid format for consistency and usability, mandating a Markdown code block for the final LaTeX output.
 
+## ⚠️ Disclaimer
+The College Scholastic Ability Test (CSAT) questions cited in this project are the intellectual property of the Korea Institute for Curriculum and Evaluation (KICE). This project uses them for the sole purpose of technological demonstration and verification.
+
 ---
 
 # ✒️ 프로젝트 LaTeXize
@@ -57,6 +62,8 @@ This system is built upon a clear, rule-based architecture:
 ## ✅ 신뢰성 검증: 2026학년도 수능 모의평가
 
 LaTeXize의 신뢰도는 2026학년도 대학수학능력시험 수학 영역 모의평가(홀수형) 전체 문항을 LaTeX로 변환하여 엄격하게 테스트되었습니다. VLE 태그를 포함하여 생성된 코드를 기반으로 모든 문제를 풀이했습니다.
+
+> **안내:** 본 검증에 사용된 시험 문제의 저작권은 한국교육과정평가원(KICE)에 있습니다.
 
 **그 결과, 모든 과목에서 공식 정답과 100% 일치했습니다.**
 *   **공통 과목 (수학 I, 수학 II):** 정확도 100%
@@ -95,6 +102,9 @@ LaTeXize의 신뢰도는 2026학년도 대학수학능력시험 수학 영역 �
     *   **2단계: 심층 시각 스캔:** 모든 이미지를 VLE 규칙에 따라 처리합니다.
     *   **3단계: 무결성 검증:** 원본과 결과물을 교차 확인하여 100% 정보 보존을 보장합니다.
 3.  **엄격한 출력 프로토콜:** 일관성과 사용성을 위한 엄격한 형식으로, 최종 LaTeX 결과물에 대해 마크다운 코드 블록 사용을 의무화합니다.
+
+## ⚠️ 저작권 안내
+본 프로젝트에서 인용된 대학수학능력시험 문항의 저작권은 한국교육과정평가원(KICE)에 있습니다. 해당 문항은 기술적 시연 및 검증의 목적으로만 사용되었습니다.
 
 ## 📜 License
 MIT License

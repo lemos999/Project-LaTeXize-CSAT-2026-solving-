@@ -4,9 +4,9 @@ An advanced AI transcription engine with visual analysis capabilities, designed 
 
 The purpose of this project is to verify that an AI can not only transcribe mathematical documents into LaTeX but also extract and textualize the logical, solvable information contained within visual elements like graphs and geometric figures.
 
-## ✅ Verification: 2026 CSAT Mock Exam
+## ✅ Verification: 2026 CSAT Exam
 
-The reliability of LaTeXize was rigorously tested by converting the entire 2026 mock College Scholastic Ability Test (CSAT) Mathematics exam (Odd Type) into LaTeX. The generated code, including the VLE tags, was then used to solve every problem.
+The reliability of LaTeXize was rigorously tested by converting the entire 2026 College Scholastic Ability Test (CSAT) Mathematics exam (Odd Type) into LaTeX. The generated code, including the VLE tags, was then used to solve every problem.
 
 > **Note:** Copyright for the test questions used in this verification belongs to the Korea Institute for Curriculum and Evaluation (KICE).
 
@@ -59,9 +59,9 @@ The College Scholastic Ability Test (CSAT) questions cited in this project are t
 
 이 프로젝트의 목적은 AI가 수학 문서를 LaTeX로 변환하는 것을 넘어, 그래프나 도형 같은 시각 자료에 포함된 논리적이고 풀이 가능한 정보까지 추출하여 텍스트로 변환할 수 있는지 검증하는 것입니다.
 
-## ✅ 신뢰성 검증: 2026학년도 수능 모의평가
+## ✅ 신뢰성 검증: 2026학년도 수능
 
-LaTeXize의 신뢰도는 2026학년도 대학수학능력시험 수학 영역 모의평가(홀수형) 전체 문항을 LaTeX로 변환하여 엄격하게 테스트되었습니다. VLE 태그를 포함하여 생성된 코드를 기반으로 모든 문제를 풀이했습니다.
+LaTeXize의 신뢰도는 2026학년도 대학수학능력시험 수학 영역 평가(홀수형) 전체 문항을 LaTeX로 변환하여 엄격하게 테스트되었습니다. VLE 태그를 포함하여 생성된 코드를 기반으로 모든 문제를 풀이했습니다.
 
 > **안내:** 본 검증에 사용된 시험 문제의 저작권은 한국교육과정평가원(KICE)에 있습니다.
 
